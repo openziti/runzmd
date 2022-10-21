@@ -30,9 +30,9 @@ func (self *ZitiForEach) Execute(ctx *runzmd.ActionContext) error {
 	if !found {
 		apiType = "edge"
 	}
-	entityType := ctx.Headers["type"]
 
-	filter, _ := ctx.Headers["filter"]
+	entityType := ctx.Headers["type"]
+	filter := ctx.Headers["filter"]
 
 	minCount := 1
 	if count, found := ctx.Headers["minCount"]; found {

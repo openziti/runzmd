@@ -39,11 +39,11 @@ func (self *KeepSessionAliveAction) Execute(ctx *runzmd.ActionContext) error {
 	}
 	go func() {
 		ticker := time.NewTicker(interval)
-		for {
-			select {
-			case <-ticker.C:
-				_, _ = runZitiJson("edge", "list", "edge-routers", `limit 1`)
-			}
+		defer ticker.Stop()
+
+		for range ticker.C {
+			_, _ = runZitiJson("edge", "list", "edge-routers", `limit 1`)
+
 		}
 	}()
 	return nil
