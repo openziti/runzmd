@@ -12,9 +12,10 @@ for tutorials and examples.
 runzmd exists to help consolidate scripts and documentation. If you can
 make a markdown tutorial runnable, then you get the following benefits:
 
-1. No duplication between the tutorial and the script
-2. Testable documentation
+1. Testable documentation
+2. No duplication between the tutorial and the script
 3. Well documented, easy to read script
+4. Documentation can be run or viewed in browzer. Browzer view isn't degraded by runnable code portions.
 
 ## Where It Makes Sense
 
@@ -24,6 +25,18 @@ The actions used can be found in the actionz directory.
 
 While this library could be used for generalized scripting it hasn't been
 optimized for that, and best suited for targeted use cases, like the above.
+
+## In Action
+
+Here's an example of a markdown file being run. This is the
+ [creating your first service](https://github.com/openziti/ziti/blob/v0.26.10/ziti/cmd/ziti/cmd/tutorial/tutorials/first-service.md)
+ tutorial for [OpenZiti](https://github.com/openziti/ziti), which is the most 
+involved example I have.  Below you can see the original markdown is on the left. 
+On the right is the markdown being executed. The markdown 
+[viewed in the browser](https://github.com/openziti/ziti/blob/v0.26.10/ziti/cmd/ziti/cmd/tutorial/tutorials/first-service.md) 
+should still be usable on its own.
+
+![example of runzmd running](./runzmd-first-service.gif "Running First Service Tutorial")
 
 ## How It Works
 
