@@ -3,16 +3,16 @@ module github.com/openziti/runzmd
 go 1.19
 
 require (
+	github.com/Jeffail/gabs/v2 v2.6.1
 	github.com/MichaelMure/go-term-markdown v0.1.4
 	github.com/alecthomas/chroma v0.10.0
 	github.com/fatih/color v1.13.0
-	github.com/openziti/foundation/v2 v2.0.6
+	github.com/openziti/foundation/v2 v2.0.7
 	github.com/pkg/errors v0.9.1
 	github.com/valyala/fasttemplate v1.2.2
 )
 
 require (
-	github.com/Jeffail/gabs/v2 v2.6.1 // indirect
 	github.com/MichaelMure/go-term-text v0.3.1 // indirect
 	github.com/disintegration/imaging v1.6.2 // indirect
 	github.com/dlclark/regexp2 v1.4.0 // indirect
