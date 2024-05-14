@@ -44,8 +44,8 @@ github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D
 github.com/mattn/go-runewidth v0.0.12 h1:Y41i/hVW3Pgwr8gV+J23B9YEY0zxjptBuCWEaxmAOow=
 github.com/mattn/go-runewidth v0.0.12/go.mod h1:RAqKPSqVFrSLVXbA8x7dzmKdmGzieGRCM46jaSJTDAk=
 github.com/mitchellh/mapstructure v1.1.2/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
-github.com/openziti/foundation/v2 v2.0.44 h1:sUY9gRkcrw1xzw+8rd267cnauhDgOiE4I+CrxrIt+jA=
-github.com/openziti/foundation/v2 v2.0.44/go.mod h1:88UifYC+Ia6VBQkGgszao/ixi8ymRME0werGo3fI55g=
+github.com/openziti/foundation/v2 v2.0.45 h1:Dj/CWwV4w0dGCRrAThF0JgZTZ7z4snF1cROCdJeGUKY=
+github.com/openziti/foundation/v2 v2.0.45/go.mod h1:88UifYC+Ia6VBQkGgszao/ixi8ymRME0werGo3fI55g=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
