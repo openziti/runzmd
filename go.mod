@@ -7,7 +7,7 @@ require (
 	github.com/MichaelMure/go-term-markdown v0.1.4
 	github.com/alecthomas/chroma v0.10.0
 	github.com/fatih/color v1.16.0
-	github.com/openziti/foundation/v2 v2.0.42
+	github.com/openziti/foundation/v2 v2.0.43
 	github.com/pkg/errors v0.9.1
 	github.com/valyala/fasttemplate v1.2.2
 )
