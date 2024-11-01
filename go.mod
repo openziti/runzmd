@@ -7,7 +7,7 @@ require (
 	github.com/MichaelMure/go-term-markdown v0.1.4
 	github.com/alecthomas/chroma v0.10.0
 	github.com/fatih/color v1.18.0
-	github.com/openziti/foundation/v2 v2.0.49
+	github.com/openziti/foundation/v2 v2.0.50
 	github.com/pkg/errors v0.9.1
 	github.com/valyala/fasttemplate v1.2.2
 )
@@ -27,6 +27,6 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	golang.org/x/image v0.0.0-20191206065243-da761ea9ff43 // indirect
 	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
-	golang.org/x/sys v0.25.0 // indirect
-	golang.org/x/term v0.24.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
+	golang.org/x/term v0.25.0 // indirect
 )
