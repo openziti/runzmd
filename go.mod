@@ -25,7 +25,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.12 // indirect
 	github.com/rivo/uniseg v0.1.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	golang.org/x/image v0.0.0-20191206065243-da761ea9ff43 // indirect
+	golang.org/x/image v0.18.0 // indirect
 	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/term v0.28.0 // indirect
