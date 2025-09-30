@@ -19,7 +19,7 @@ package runzmd
 import (
 	"bytes"
 	"fmt"
-	markdown "github.com/MichaelMure/go-term-markdown"
+	markdown "github.com/openziti/go-term-markdown"
 	"github.com/fatih/color"
 	"github.com/openziti/foundation/v2/term"
 	"github.com/pkg/errors"

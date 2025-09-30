@@ -45,7 +45,7 @@ func (self *ExecActionHandler) Execute(ctx *ActionContext) error {
 			cmds = append(cmds, params)
 			ctx.Runner.LeftPadBuilder(buf)
 			buf.WriteString("  ")
-			buf.WriteString(color.New(color.Bold).Sprintf(line))
+			buf.WriteString(color.New(color.Bold).Sprint(line))
 			buf.WriteRune('\n')
 		}
 	}
