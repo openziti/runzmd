@@ -50,7 +50,7 @@ func (self *ZitiCreateConfigAction) Execute(ctx *runzmd.ActionContext) error {
 	params[0] = line
 	ctx.Runner.LeftPadBuilder(buf)
 	buf.WriteString("  ")
-	buf.WriteString(color.New(color.Bold).Sprintf(line))
+	buf.WriteString(color.New(color.Bold).Sprint(line))
 	buf.WriteRune('\n')
 	buf.WriteRune('\n')
 	ctx.Runner.LeftPadBuilder(buf)

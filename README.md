@@ -42,7 +42,7 @@ should still be usable on its own.
 
 runzmd starts with embedded markdown and finds any blockquote sections and
 comments marked as being executable. Markdown sections between executable
-blocks are outputted it using the [go-term-markdown](https://github.com/MichaelMure/go-term-markdown)
+blocks are outputted it using the [go-term-markdown](https://github.com/openziti/go-term-markdown)
 library. The executable sections are handed off to registered handlers, to
 executable in whatever manner is appropriate.
 
