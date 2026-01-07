@@ -8,7 +8,7 @@ require (
 	github.com/Jeffail/gabs/v2 v2.7.0
 	github.com/alecthomas/chroma v0.10.0
 	github.com/fatih/color v1.18.0
-	github.com/openziti/foundation/v2 v2.0.79
+	github.com/openziti/foundation/v2 v2.0.84
 	github.com/openziti/go-term-markdown v1.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/valyala/fasttemplate v1.2.2
@@ -25,6 +25,6 @@ require (
 	github.com/mattn/go-runewidth v0.0.19 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	golang.org/x/net v0.44.0 // indirect
-	golang.org/x/sys v0.37.0 // indirect
-	golang.org/x/term v0.36.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/term v0.38.0 // indirect
 )
