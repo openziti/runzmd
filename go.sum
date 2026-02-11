@@ -25,8 +25,8 @@ github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D
 github.com/mattn/go-runewidth v0.0.12/go.mod h1:RAqKPSqVFrSLVXbA8x7dzmKdmGzieGRCM46jaSJTDAk=
 github.com/mattn/go-runewidth v0.0.19 h1:v++JhqYnZuu5jSKrk9RbgF5v4CGUjqRfBm05byFGLdw=
 github.com/mattn/go-runewidth v0.0.19/go.mod h1:XBkDxAl56ILZc9knddidhrOlY5R/pDhgLpndooCuJAs=
-github.com/openziti/foundation/v2 v2.0.86 h1:r4F1jsi8UFmeHmI4v6JC/hncPPjGxGEumOZRrE4Oey0=
-github.com/openziti/foundation/v2 v2.0.86/go.mod h1:LrE/z8YXQUbwfyGwg3HgFs9ElGOq/T61EXbkagkDozQ=
+github.com/openziti/foundation/v2 v2.0.87 h1:tD1Lba3C/MfBmDnLSmlyKB8hxjry4HAaNrdJqN+fqxQ=
+github.com/openziti/foundation/v2 v2.0.87/go.mod h1:LrE/z8YXQUbwfyGwg3HgFs9ElGOq/T61EXbkagkDozQ=
 github.com/openziti/go-term-markdown v1.0.1 h1:9uzMpK4tav6OtvRxRt99WwPTzAzCh+Pj9zWU2FBp3Qg=
 github.com/openziti/go-term-markdown v1.0.1/go.mod h1:aIhR12zlROVqr7x51DtBALaQZQ3FofBuKDWqCfaz3oo=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
