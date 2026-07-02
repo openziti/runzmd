@@ -1,14 +1,12 @@
 module github.com/openziti/runzmd
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
 	github.com/Jeffail/gabs/v2 v2.7.0
 	github.com/alecthomas/chroma v0.10.0
-	github.com/fatih/color v1.18.0
-	github.com/openziti/foundation/v2 v2.0.88
+	github.com/fatih/color v1.19.0
+	github.com/openziti/foundation/v2 v2.0.90
 	github.com/openziti/go-term-markdown v1.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/valyala/fasttemplate v1.2.2
@@ -25,6 +23,6 @@ require (
 	github.com/mattn/go-runewidth v0.0.19 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	golang.org/x/net v0.44.0 // indirect
-	golang.org/x/sys v0.41.0 // indirect
-	golang.org/x/term v0.40.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/term v0.41.0 // indirect
 )
