@@ -26,10 +26,16 @@ import (
 	"github.com/valyala/fasttemplate"
 	"io"
 	"os"
+	"regexp"
 	"sort"
 	"strings"
 	"time"
 )
+
+// ansiEscapePattern matches ANSI escape sequences (e.g. color codes) so they can
+// be stripped from template tags. Syntax highlighting applied during markdown
+// rendering can inject these sequences into the middle of a ${var} reference.
+var ansiEscapePattern = regexp.MustCompile("\x1b\\[[0-9;]*[a-zA-Z]")
 
 const (
 	codeActionBlockStart    = "```action:"
@@ -298,8 +304,9 @@ func (self *Runner) LeftPadBuilder(b *strings.Builder) {
 
 func (self *Runner) EmitTemplatized(s string, out io.Writer) error {
 	_, err := fasttemplate.ExecuteFunc(s, "${", "}", out, func(w io.Writer, tag string) (int, error) {
-		tag = strings.ReplaceAll(tag, "\n", "") // in case we hit a line-break
-		tag = strings.ReplaceAll(tag, " ", "")  // in case we hit a line-break
+		tag = ansiEscapePattern.ReplaceAllString(tag, "") // in case syntax highlighting injected color codes
+		tag = strings.ReplaceAll(tag, "\n", "")           // in case we hit a line-break
+		tag = strings.ReplaceAll(tag, " ", "")            // in case we hit a line-break
 
 		val, ok := self.variables[tag]
 		if !ok {
