@@ -6,7 +6,7 @@ require (
 	github.com/Jeffail/gabs/v2 v2.7.0
 	github.com/alecthomas/chroma v0.10.0
 	github.com/fatih/color v1.19.0
-	github.com/openziti/foundation/v2 v2.0.102
+	github.com/openziti/foundation/v2 v2.0.103
 	github.com/openziti/go-term-markdown v1.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/valyala/fasttemplate v1.2.2
